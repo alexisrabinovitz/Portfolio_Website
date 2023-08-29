@@ -41,6 +41,9 @@
   .about-containers {
     margin-top: 0;
   }
+  .container-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -95,5 +98,23 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .container-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
 }
